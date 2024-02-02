@@ -16,6 +16,9 @@ dependencies:
   device_info: ^2.0.3
   flutter_nearby_connections: ^1.1.2
   flutter_styled_toast: ^2.2.1
+  http: ^1.2.0
+  uuid: ^4.3.3
+  nearby_connections: ^4.0.1
 
 dev_dependencies:
   flutter_test:
