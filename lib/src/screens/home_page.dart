@@ -1,6 +1,5 @@
 // app_bar_example.dart
 import 'package:flutter/material.dart';
-import 'package:mobile_front_end/src/screens/nearby_devices_screen.dart';
 import 'package:mobile_front_end/src/screens/scan_page.dart';
 import 'package:mobile_front_end/src/screens/test_near_devices.dart';
 import 'package:mobile_front_end/src/widgets/covid_switch.dart';
@@ -100,7 +99,7 @@ class HomePage extends StatelessWidget {
                     },
                 ),
                 SmallContainerWidget(
-                  label: 'Container 4',
+                  label: 'NearBy People',
                   onSmallContainerPressed: () {
                     // Add logic for Container 4 pressed
                   },

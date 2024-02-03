@@ -118,11 +118,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.3"
-  flutter_localizations:
-    dependency: transitive
-    description: flutter
-    source: sdk
-    version: "0.0.0"
   flutter_nearby_connections:
     dependency: "direct main"
     description:
@@ -131,14 +126,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.2"
-  flutter_styled_toast:
-    dependency: "direct main"
-    description:
-      name: flutter_styled_toast
-      sha256: e667f13a665820eb0fa8506547e47eacbcddf1948d6d3036cfd3b089bd4b0516
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.2.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -161,13 +148,13 @@ packages:
     source: hosted
     version: "4.0.2"
   intl:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: intl
-      sha256: "3bc132a9dbce73a7e4a21a17d06e1878839ffbf975568bc875c60537824b0c4d"
+      sha256: d6f56758b7d3014a48af9701c085700aac781a92a87a62b1333b46d8879661cf
       url: "https://pub.dev"
     source: hosted
-    version: "0.18.1"
+    version: "0.19.0"
   lints:
     dependency: transitive
     description:
@@ -200,14 +187,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.0"
-  nearby_connections:
-    dependency: "direct main"
-    description:
-      name: nearby_connections
-      sha256: "7a7237421c4654867a60a0a3314f150962097c0383ebab8ad2d5942cedd54da6"
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.0.1"
   path:
     dependency: transitive
     description:
@@ -335,4 +314,4 @@ packages:
     version: "0.3.0"
 sdks:
   dart: ">=3.2.3 <4.0.0"
-  flutter: ">=1.20.0"
+  flutter: ">=1.12.13+hotfix.6"
